@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Map;
 
 public class Main {
-    private static final String DISTANCE_UNIT = "kilometers";  // Define the unit of measurement explicitly
+    private static final String DISTANCE_UNIT = "kilometers";
 
     public static void main(String[] args) {
         MyGraph<String> graph = new MyGraph<>();  // Using MyGraph which can extend WeightedGraph
