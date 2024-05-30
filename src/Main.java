@@ -64,7 +64,7 @@ public class Main {
             graph.addVertex(city);
         }
 
-        // Add edges with more realistic distances (in kilometers)
+        // Add edges with more distances (in kilometers)
         graph.addEdge("Kabul", "Tehran", 990);
         graph.addEdge("Tehran", "Ankara", 1760);
         graph.addEdge("Dushanbe", "Tashkent", 576);
